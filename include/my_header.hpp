@@ -53,5 +53,32 @@ void exo3(void)
 	essai = essai - 1;
 
 }
+#include <stdlib.h>
+#include <time.h>
+
+unsigned short lancer_de()
+{
+	srand(time(NULL));
+	return (rand() % 6) + 1;
+}
+void exo4(void)
+{
+	int nbp = 0
+	int nbo = 0
+
+		while (nbo =! 1)
+		{
+			if (nbo == 2)
+				nbp = nbp + nbo;
+				if (nbo == 4)
+					nbp = nbp + nbo;
+					if (nbo == 6)
+						nbp = nbp + nbo;
+						if (nbo == 3)
+							nbp = nbp * 2;
+							if (nbo == 5)
+								nbp = 0;
+		}
+}
 #endif // MY_HEADER_HPP
 
